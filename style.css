@@ -1,0 +1,70 @@
+/*
+Created by: Gavin Bernard
+Date: 10/21/2018
+*/
+
+body{
+color:white;
+background-repeat:repeat;
+font-size:1.1em;
+background-image:url(images/texture.jpg);
+font-family:arial,helvetica;
+}
+
+#container{
+width:900px;
+background-color:#837c63;
+border-width:1px 1px 1px 1px;
+margin:0 auto 0 auto;
+}
+
+aside{
+width:210px;
+min-height:375px;
+padding:10px 10px 10px 10px;
+background-color:teal;
+float:right;
+color:white;
+line-height:300%;
+}
+
+a:link{
+	color:turquoise;
+}
+
+a:visited{
+	color:lawngreen;
+}
+
+a:hover{
+	color:aquamarine;
+}
+
+#main{
+padding:10px 10px 10px 10px;
+width:640px;
+background-color:teal;
+margin-right:10px
+float:left;
+text-indent:2em;
+}
+
+#main p{
+font-size:1em;
+line-height:150%;
+}
+
+#main h1{
+font-size:2em;
+padding-bottom:10px;
+text-align:center;
+border-bottom:solid thick orange;
+}
+
+footer{
+border:solid 5px orange;
+width:890px;
+background-color:gray;
+text-align:center;
+clear:both;
+}
